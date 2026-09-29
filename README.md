@@ -74,6 +74,10 @@ The CSS slide technique was inspired by
 "[Creating a Slide Deck with Just HTML and CSS][knowler]" by Nathan Knowler
 on Codepen.
 
+A fork of this project that uses [Djot][djot] as a markup language is available
+[here][djslides]. Djot is a strong choice for this usecase because it generates
+a `<section>` for every `# Heading`.
+
 
   [repo]: https://github.com/zenomt/mdslides
   [Pikchr]: https://pikchr.org/
@@ -82,3 +86,5 @@ on Codepen.
   [md2html]: https://github.com/mity/md4c/tree/master/md2html
   [MD4C]: https://github.com/mity/md4c
   [CommonMark]: https://commonmark.org/
+  [djot]: https://djot.net
+  [djslides]: https://git.sr.ht/~binkd/djslides
